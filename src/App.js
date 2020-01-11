@@ -13,9 +13,9 @@ function App() {
      <BrowserRouter >
      <Header />
      <Route exact path='/' component = {Home} />
-     <Route exact path='/' component = {About} />
-     <Route exact path='/' component = {Project} />
-     <Route exact path='/' component = {Contact} />
+     <Route exact path='/About' component = {About} />
+     <Route exact path='/Project' component = {Project} />
+     <Route exact path='/Contact' component = {Contact} />
      <Footer />
      </BrowserRouter> 
     </div>

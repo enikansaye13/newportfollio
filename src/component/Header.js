@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Home from './Home';
 import { Button, Container, Row,Col, Image, Nav,Navbar} from 'react-bootstrap';
+import About from './About'
 
 
 
@@ -10,10 +11,10 @@ class Header extends Component{
  <div className="container">          
  <Navbar bg="primary" variant="">
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link href="/About">About</Nav.Link>
+      <Nav.Link href="/Project">Project</Nav.Link>
+      <Nav.Link href="/Contact">Contact</Nav.Link>
     </Nav>
   </Navbar>
 </div>
