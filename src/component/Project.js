@@ -17,9 +17,9 @@ class Project extends Component {
 
 
                             <h4>PROJECTS</h4>
-                            <p>Keep it Clean <span>links to personal projects</span></p>
-                            <p>Neflin <span>links to intra track projects</span></p>
-                            <p>E-reporting <span>links to intertrack projects</span></p>
+                            <p><a href="https://condescending-payne-1accd8.netlify.com/"><span>Soo Clean</span></a></p>
+                            <p><a href="https://swish933.github.io/netflix-landing/"><span> netflix</span></a></p>
+                            {/* <p>E-reporting <span>links to intertrack projects</span></p> */}
                             <p>Quiz app <span>links to javascrip quiz projects</span></p>
                         </Col>
                         <Col xs={6} md={6}  >
